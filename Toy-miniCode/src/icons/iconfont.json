@@ -1,0 +1,226 @@
+{
+  "id": "2620821",
+  "name": "表单生成器",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1766473",
+      "name": "符号-穿梭框",
+      "font_class": "chuansuokuang",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "1766510",
+      "name": "符号-折叠面板",
+      "font_class": "zhediemianban",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "3900643",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "5483548",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "7193675",
+      "name": "B-省市区",
+      "font_class": "B-shengshiqu",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "11457846",
+      "name": "fsux_图表_进度条图",
+      "font_class": "fsux_tubiao_jindutiaotu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "13253841",
+      "name": "table",
+      "font_class": "table",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "13872054",
+      "name": "轮播图管理",
+      "font_class": "lunbotuguanli",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "17279617",
+      "name": "临摹-卡片",
+      "font_class": "linmo-kapian",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "17692217",
+      "name": "步骤条",
+      "font_class": "buzhoutiao",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "17692240",
+      "name": "分页器",
+      "font_class": "fenyeqi",
+      "unicode": "e706",
+      "unicode_decimal": 59142
+    },
+    {
+      "icon_id": "18941507",
+      "name": "树形控件",
+      "font_class": "shuxingkongjian",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "18941495",
+      "name": "按钮",
+      "font_class": "anniu",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "297679",
+      "name": "文本编辑",
+      "font_class": "wenbenbianji",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "1766503",
+      "name": "符号-图片上传",
+      "font_class": "tupianshangchuan",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "5881149",
+      "name": "符号-数字输入框",
+      "font_class": "fuhao-shuzishurukuang",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "8612846",
+      "name": "日期选择",
+      "font_class": "riqixuanze",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9976601",
+      "name": "文件上传",
+      "font_class": "21upload",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "11121364",
+      "name": "滑块",
+      "font_class": "huakuai",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "11121454",
+      "name": "分割线",
+      "font_class": "fengexian",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "14929960",
+      "name": "评分等级Rating (7)",
+      "font_class": "pingfendengjiRating7",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "15126388",
+      "name": "icon_时间选择",
+      "font_class": "icon_time",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "15126399",
+      "name": "icon_多选框组",
+      "font_class": "icon_duoxuankuangzu",
+      "unicode": "e738",
+      "unicode_decimal": 59192
+    },
+    {
+      "icon_id": "15220263",
+      "name": "多行输入",
+      "font_class": "duohangshuru",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "15220264",
+      "name": "单行输入",
+      "font_class": "danhangshuru",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "16852646",
+      "name": "颜色选择器",
+      "font_class": "colorSelector",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "17374556",
+      "name": "单选框组",
+      "font_class": "danxuankuangzu",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "17374572",
+      "name": "下拉选择框",
+      "font_class": "xialaxuanzekuang",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "17938527",
+      "name": "文本域",
+      "font_class": "wenbenyu",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "19041713",
+      "name": "级联选择",
+      "font_class": "jilianxuanze",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "20905073",
+      "name": "开关",
+      "font_class": "kaiguan",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}

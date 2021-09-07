@@ -11,4 +11,3 @@
 # footer:
 # - Include a link to the issue.
 # - BREAKING CHANGE
-#

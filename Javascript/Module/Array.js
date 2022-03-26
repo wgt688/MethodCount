@@ -1,16 +1,21 @@
 /* =========================== Array =========================== */
-class Array() {
-    constructor() {
+export class myArray {
+    constructor( ...value ) {
         this.length = 0
-        this.name = "Array"
+        this.name = "myArray"
+        this.value = [ ...value ]
+        console.log(this.value)
     }
     static from() {
-
+        
     }
     static isArray() {
 
     }
     static of () {
+
+    }
+    at() {
 
     }
     concat() {
@@ -43,8 +48,13 @@ class Array() {
     flatMap() {
 
     }
-    forEach() {
-
+    forEach(callBack){
+        // if (isType(callBack) != 'function') throw new Error(`${callback} is not a function`);
+        for( let i = 0,leng = this.value.leng ; i<leng ; i++ ){
+            if(callBack(this[i])){
+                callBack(this[i], i);
+            }
+        }
     }
     includes() {
 
@@ -62,7 +72,7 @@ class Array() {
 
     }
     map() {
-
+        return '我是map返回值'
     }
     pop() {
 

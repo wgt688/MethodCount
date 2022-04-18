@@ -6,7 +6,7 @@ export class myArray {
         this.mount =  window.mount;  // 是否要挂载到window基础类上
         this.value = [ ...value ];
         // 挂拟迭代器
-        this.__proto__[Symbol.iterator] = () =>{
+        this.__proto__[Symbol.iterator] = () => {
             let index = 0;
             let that = this;
             return {
@@ -43,16 +43,9 @@ export class myArray {
             default:
                 console.log('无')
         }
-        return [].map.call(item=>iteration)
+       
     }
 
-    /** 判断是否为数组
-    * @param  { any } v
-    * @return { Boolean }
-    **/ 
-    static _isArray(v) {
-        if ( Object.prototype.toString.call(v).slice(8, -1).toLowerCase() == 'array' ) return true; return false;
-    }
 
     /** 返回一个新数组
     * @param  { anys } v
@@ -60,6 +53,13 @@ export class myArray {
     **/ 
     static _of (...v) { 
         return [...v];
+    }
+
+    /** 返回实参的数据类型。
+    * @return { string }
+    **/ 
+      getTargetProperty( v = undefined ) {
+        return Object.prototype.toString.call( v ).slice(8, -1).toLowerCase();
     }
 
     /** 前置方法
@@ -79,7 +79,7 @@ export class myArray {
         return this.mount ? arr : new myArray( ...arr );
     }
 
-    /** 判断类型
+    /** 判断类型 一个实参判断类型，两个判断type a是否属于b
     * @param  { any }  
     * @param  { any }  
     * @return { StringType | Boolean }
@@ -107,7 +107,7 @@ export class myArray {
         let value = this.before( callBack );
         const arr = [];
         for ( let i = 0, leng = value.length ; i<leng ; i++ ) {
-            if (callBack(value[i])) {
+            if (callBack(value[i])) {   
                 arr.push( callBack(value[i], i) );
             }
         }
@@ -145,6 +145,7 @@ export class myArray {
 
     _reduce( callBack ) {
 
+
     }
 
     // 返回匹配到的第一项item。findIndex是返回匹配到的第一项item的index下标值。所以我放在一起写，return { item:value,index:value }
@@ -163,6 +164,7 @@ export class myArray {
     // 扁平化处理，flatMap是基于flat对每一项数据进行操作处理。所以这里传参要两个，第一个是扁平级数，第二个是回调函数。
     // 至于为什么会有map估计是考虑了性能吧
     _flat(index, callBack) {
+
 
     }
 
